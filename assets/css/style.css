@@ -75,3 +75,37 @@ a {
   background-color: var(--orange);
   border-radius: 12px;
 }
+.navbar .navbar-menu-bar {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .navbar {
+    margin-top: 0;
+    padding: 12px 16px;
+    border: 1px solid #fea301;
+  }
+  .navbar .navbar-logo span {
+    display: none;
+  }
+  .navbar .navbar-menu-link {
+    display: none;
+  }
+  .navbar .navbar-button {
+    display: none;
+  }
+  .navbar .navbar-menu-bar {
+    display: block;
+  }
+  .navbar .navbar-menu-bar i {
+    font-size: 1.5rem;
+    color: var(--black);
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+  .navbar {
+    padding: 0 16px;
+  }
+  .navbar .navbar-menu-link ul {
+    gap: 20px;
+  }
+}
