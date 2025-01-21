@@ -170,6 +170,7 @@ a {
       rgba(255, 255, 255, 0) 40%
     ),
     rgb(255, 255, 255);
+  border: 1px solid #def5ff;
   a {
     color: #64c8ff;
   }
@@ -181,6 +182,7 @@ a {
       rgba(255, 255, 255, 0) 40%
     ),
     rgb(255, 255, 255);
+  border: 1px solid #fff4dc;
   a {
     color: #f0aa00;
   }
@@ -192,6 +194,7 @@ a {
       rgba(255, 255, 255, 0) 40%
     ),
     rgb(255, 255, 255);
+  border: 1px solid #f2e8ff;
   a {
     color: #8700ff;
   }
@@ -311,10 +314,10 @@ a {
   font-size: 0.938rem;
   color: #000;
 }
-.our-stories-section {
-  text-align: center;
+.our-stories-section a {
+  color: white;
 }
-.our-stories-section > a {
+.our-stories-section > button {
   padding: 10px 61px;
   background-color: var(--black);
   border-radius: 12px;
@@ -323,7 +326,11 @@ a {
   font-weight: 700;
   color: white;
   display: inline-block;
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
+}
+.our-stories-section {
+  display: flex;
+  flex-direction: column;
 }
 /* Footer Section Styles */
 footer {
@@ -472,7 +479,7 @@ footer {
   /* Standard Curriculum Responsive */
   .curriculum-section h2 {
     font-size: 1.625rem;
-    margin: 40px 0 20px;
+    padding: 40px 0 20px;
   }
   .curriculum-cards {
     flex-wrap: wrap;
@@ -588,7 +595,7 @@ footer {
   }
   /* Our Stories */
   .our-stories-cards {
-    padding: 0 16px;
+    padding: 0 16px 50px;
   }
   /* Footer Responsive */
   .footer-section {
