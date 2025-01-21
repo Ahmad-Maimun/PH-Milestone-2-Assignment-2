@@ -515,9 +515,27 @@ footer {
     width: 100%;
     object-fit: cover;
     height: 105px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .our-stories-card {
+    border-radius: 10px;
   }
   .our-stories-cards {
     padding: 0 0 20px;
+  }
+  /* Footer Responsive */
+  .footer-section {
+    flex-wrap: wrap;
+    padding: 65px 80px 60px 16px;
+  }
+  .footer-content-1,
+  .footer-content-2 {
+    margin-bottom: 32px;
+  }
+  .footer-content-1 span {
+    font-size: 2.188rem;
+    max-width: 144px;
   }
 }
 /* Medium Device */
@@ -530,6 +548,9 @@ footer {
   }
   .story-gallery {
     padding: 0 16px;
+  }
+  .footer-section {
+    padding: 123px 16px 173px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 1024px) {
@@ -568,5 +589,9 @@ footer {
   /* Our Stories */
   .our-stories-cards {
     padding: 0 16px;
+  }
+  /* Footer Responsive */
+  .footer-section {
+    padding: 123px 16px 173px;
   }
 }
